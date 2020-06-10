@@ -7,7 +7,7 @@ import {
 
 const CardComp = props => (
     <View style={{ ...styles.inputContainer, ...props.style }}>
-        {props.Children}
+        {props.children}
     </View>
 )
 export default CardComp;
